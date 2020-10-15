@@ -1,0 +1,16 @@
+{
+  "name": "random_wallpaper",
+  "version": "1.0.0",
+  "description": "An application that will download random images and set them as the wallpaper in certain intervals.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "author": "Soumyajit Dey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "nodemon": "^2.0.4",
+    "wallpaper": "^4.4.1"
+  }
+}
